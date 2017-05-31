@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae728a76-08ab-4990-8825-6237afefa532" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/ui/ApplicationWindow.java" afterPath="$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/ui/ApplicationWindow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/ui/MainApplication.java" afterPath="$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/ui/MainApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/cofiguration/AdapterSettings.class" afterPath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/cofiguration/AdapterSettings.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/guiPanels/GetCenterPanel$5.class" afterPath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/guiPanels/GetCenterPanel$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/guiPanels/GetCenterPanel$6.class" afterPath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/guiPanels/GetCenterPanel$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/guiPanels/GetCenterPanel$7.class" afterPath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/guiPanels/GetCenterPanel$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/guiPanels/GetCenterPanel$8.class" afterPath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/guiPanels/GetCenterPanel$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/guiPanels/GetCenterPanel.class" afterPath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/guiPanels/GetCenterPanel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/ui/MainApplication.class" afterPath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/ui/MainApplication.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/guiPanels/GetCenterPanel.java" afterPath="$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/guiPanels/GetCenterPanel.java" />
     </list>
     <ignored path="settopbox.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,7 +31,41 @@
     <favorites_list name="settopbox" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ApplicationWindow.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/ui/ApplicationWindow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="867">
+              <caret line="59" column="53" selection-start-line="59" selection-start-column="53" selection-end-line="59" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GetCenterPanel.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/guiPanels/GetCenterPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="918">
+              <caret line="421" column="0" selection-start-line="421" selection-start-column="0" selection-end-line="421" selection-end-column="0" />
+              <folding>
+                <element signature="method#startProgressBar#0;class#GetCenterPanel#0" expanded="false" />
+                <element signature="method#stopProgressBar#0;class#GetCenterPanel#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/ui/MainApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -91,11 +132,11 @@
         <option value="$PROJECT_DIR$/src/test/java/settopbox/denemeler/wmi/WMIObjectInformation.java" />
         <option value="$PROJECT_DIR$/src/test/java/settopbox/denemeler/wmi/WMIConnection.java" />
         <option value="$PROJECT_DIR$/src/test/java/settopbox/TestUUID.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/guiPanels/GetCenterPanel.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/enums/AdapterType.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/ui/ApplicationWindow.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/ui/MainApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/cofiguration/AdapterSettings.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/ui/MainApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/guiPanels/GetCenterPanel.java" />
       </list>
     </option>
   </component>
@@ -317,6 +358,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="settopbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testsManagement" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1113,7 +1158,7 @@
       <workItem from="1492188417306" duration="786000" />
       <workItem from="1492777977271" duration="12000" />
       <workItem from="1494590814106" duration="283000" />
-      <workItem from="1496208014519" duration="5731000" />
+      <workItem from="1496208014519" duration="6891000" />
     </task>
     <servers />
   </component>
@@ -1150,11 +1195,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7002000" />
+    <option name="totallyTimeSpent" value="8162000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1165,7 +1210,7 @@
       <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16972972" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16972972" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1224,12 +1269,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/guiPanels/GetCenterPanel.java</url>
-          <line>87</line>
-          <properties />
-          <option name="timeStamp" value="99" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/utilities/PrintTestResults2TextFile.java</url>
           <line>49</line>
@@ -1305,27 +1344,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/testsManagement/ledTestCore/LedTesti.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/testsManagement/modemErisimTestCore/ModemErisimTesti.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/testsManagement/modemLoginTestCore/ModemLoginTesti.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1563,16 +1581,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/guiPanels/GetCenterPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="420" column="21" selection-start-line="420" selection-start-column="21" selection-end-line="420" selection-end-column="21" />
-          <folding>
-            <element signature="method#stopProgressBar#0;class#GetCenterPanel#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/ui/ApplicationWindow2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1589,26 +1597,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/ui/ApplicationWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/cofiguration/AdapterSettings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/ui/MainApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1618,6 +1610,57 @@
         <state relative-caret-position="187">
           <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/testsManagement/modemLoginTestCore/ModemLoginTesti.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/testsManagement/modemErisimTestCore/ModemErisimTesti.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/testsManagement/ledTestCore/LedTesti.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/ui/ApplicationWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="59" column="53" selection-start-line="59" selection-start-column="53" selection-end-line="59" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/ui/MainApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/guiPanels/GetCenterPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="421" column="0" selection-start-line="421" selection-start-column="0" selection-end-line="421" selection-end-column="0" />
+          <folding>
+            <element signature="method#startProgressBar#0;class#GetCenterPanel#0" expanded="false" />
+            <element signature="method#stopProgressBar#0;class#GetCenterPanel#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

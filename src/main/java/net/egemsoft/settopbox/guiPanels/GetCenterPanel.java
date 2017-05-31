@@ -1,6 +1,5 @@
 package net.egemsoft.settopbox.guiPanels;
 
-import net.egemsoft.settopbox.utilities.MyLogger;
 import net.egemsoft.settopbox.enums.EventContextParam;
 import net.egemsoft.settopbox.enums.TestOrder;
 import net.egemsoft.settopbox.enums.TestStatus;
@@ -13,6 +12,7 @@ import net.egemsoft.settopbox.testsManagement.modemLoginTestCore.ModemLoginTesti
 import net.egemsoft.settopbox.testsManagement.resetButonTestCore.ResetButonTesti;
 import net.egemsoft.settopbox.testsManagement.wifiIslevsellikTestCore.WifiIslevsellikTesti;
 import net.egemsoft.settopbox.ui.MainApplication;
+import net.egemsoft.settopbox.utilities.MyLogger;
 import net.miginfocom.swing.MigLayout;
 import org.springframework.core.io.ClassPathResource;
 
@@ -32,24 +32,18 @@ import java.util.Map;
 public class GetCenterPanel extends JPanel {
 
     final static MyLogger logger = new MyLogger(GetCenterPanel.class);
-
+    private static Map<String, Object> testResultsContext;
     private String MLDebugMode = "";
-
     private JPanel selectAllTestPanel;
     private JCheckBox cboxSelectAll;
     private JButton btnStartTests;
     private JButton btnEndTests;
-
     private ImageIcon fail;
     private ImageIcon success;
-
     private boolean SET_OPAQ = MainApplication.ALL_OPAQ_SETTINGS;
 
 
-    private static Map<String, Object> testResultsContext;
-
-
-    public GetCenterPanel(String MLDebugMode){
+    public GetCenterPanel(String MLDebugMode) {
 
         this.MLDebugMode = MLDebugMode;
         setLayout(new MigLayout(MLDebugMode + ",gapy 0"));
@@ -60,23 +54,22 @@ public class GetCenterPanel extends JPanel {
             add(getMyJTestPanel(TestOrder.values()[i].name(), TestOrder.values()[i].getValue()), "wrap, grow");
         }
 
-        add(getSelectAllTest(),"wrap, grow");
+        add(getSelectAllTest(), "wrap, grow");
         testResultsContext = new LinkedHashMap<String, Object>();//
 
     }
 
 
+    private JPanel getMyJTestPanel(String testName, String testContext) {
 
-    private JPanel getMyJTestPanel(String testName, String testContext){
-
-        JPanel myTestPanel = new JPanel(new MigLayout(MLDebugMode+",insets 0"));
+        JPanel myTestPanel = new JPanel(new MigLayout(MLDebugMode + ",insets 0"));
         myTestPanel.setName(testName);
         myTestPanel.setOpaque(SET_OPAQ);///
 
         final JCheckBox cboxInfo = new JCheckBox(testContext);
         cboxInfo.setName(testName);//!!! testler testResultContext içinde bu field'a göre tutuluyor
         cboxInfo.setOpaque(SET_OPAQ);
-        Font font = new Font(cboxInfo.getFont().getName(),Font.BOLD, cboxInfo.getFont().getSize());
+        Font font = new Font(cboxInfo.getFont().getName(), Font.BOLD, cboxInfo.getFont().getSize());
         cboxInfo.setFont(font);
 
 
@@ -85,16 +78,16 @@ public class GetCenterPanel extends JPanel {
             public void actionPerformed(ActionEvent e) {
 
                 boolean hepsiSecili = false;
-                for (int i = 0; i < getComponents().length-1; i++) {
+                for (int i = 0; i < getComponents().length - 1; i++) {
 
-                    if ( getComponents()[i] instanceof  JPanel){
+                    if (getComponents()[i] instanceof JPanel) {
                         JPanel panel = ((JPanel) getComponents()[i]);
                         JCheckBox box = (JCheckBox) panel.getComponents()[0];
 
-                        if (box.isEnabled() && box.isSelected()){
+                        if (box.isEnabled() && box.isSelected()) {
                             hepsiSecili = true;
 
-                        }else{
+                        } else {
 
                             // bir tane bile seçilmeyen varsa işlemi iptal et
                             if (box.isEnabled()) {
@@ -106,7 +99,7 @@ public class GetCenterPanel extends JPanel {
                     }
                 }
 
-                if (hepsiSecili){
+                if (hepsiSecili) {
                     cboxSelectAll.setSelected(true);
                 }
             }
@@ -115,11 +108,10 @@ public class GetCenterPanel extends JPanel {
         myTestPanel.add(cboxInfo, "gapright 10, height 30, width 200, cell 0 0");
 
 
-
         JProgressBar bar = new JProgressBar();
         bar.setIndeterminate(false);
         bar.setVisible(false);
-        myTestPanel.add(bar,"height 10, width 150, cell 1 0");
+        myTestPanel.add(bar, "height 10, width 150, cell 1 0");
 
 
         try {
@@ -139,7 +131,7 @@ public class GetCenterPanel extends JPanel {
 
         cboxInfo.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                logger.info(cboxInfo.getText() +": "+ cboxInfo.isSelected());
+                logger.info(cboxInfo.getText() + ": " + cboxInfo.isSelected());
                 cboxSelectAll.setSelected(false);
             }
         });
@@ -148,16 +140,16 @@ public class GetCenterPanel extends JPanel {
     }
 
 
-    private JPanel getSelectAllTest(){
+    private JPanel getSelectAllTest() {
 
-        if(selectAllTestPanel == null){
+        if (selectAllTestPanel == null) {
 
-            selectAllTestPanel = new JPanel(new MigLayout(MLDebugMode+", insets 0"));
+            selectAllTestPanel = new JPanel(new MigLayout(MLDebugMode + ", insets 0"));
             selectAllTestPanel.setOpaque(SET_OPAQ);
 
             cboxSelectAll = new JCheckBox("Tüm Testleri Seç");
             cboxSelectAll.setOpaque(SET_OPAQ);
-            Font font = new Font(cboxSelectAll.getFont().getName(),Font.BOLD, cboxSelectAll.getFont().getSize());
+            Font font = new Font(cboxSelectAll.getFont().getName(), Font.BOLD, cboxSelectAll.getFont().getSize());
             cboxSelectAll.setFont(font);
             selectAllTestPanel.add(cboxSelectAll, "gapright 15, height 30, width 120, cell 0 0");
 
@@ -179,12 +171,12 @@ public class GetCenterPanel extends JPanel {
 
                     for (int i = 0; i < getComponents().length; i++) {
 
-                        if ( getComponents()[i] instanceof  JPanel){
+                        if (getComponents()[i] instanceof JPanel) {
                             JPanel panel = ((JPanel) getComponents()[i]);
 
-                            if (( panel.getComponents()[0]).isEnabled()){// enable ise seçsin, test tekrarında problem yaşamayız
+                            if ((panel.getComponents()[0]).isEnabled()) {// enable ise seçsin, test tekrarında problem yaşamayız
                                 ((JCheckBox) panel.getComponents()[0]).setSelected(isChecked);
-                                logger.info(((JCheckBox) panel.getComponents()[0]).getText()+": "+((JCheckBox) panel.getComponents()[0]).isSelected());
+                                logger.info(((JCheckBox) panel.getComponents()[0]).getText() + ": " + ((JCheckBox) panel.getComponents()[0]).isSelected());
                             }
 
                         }
@@ -201,21 +193,21 @@ public class GetCenterPanel extends JPanel {
                     // 3. tüm testleri enable yap
                     // 4. kendini disable yap
 
-                    logger.info("Test sonuçları yazdırıldı: "+testResultsContext.toString());
+                    logger.info("Test sonuçları yazdırıldı: " + testResultsContext.toString());
 
 //                    new PrintTestResults(testResultsContext);
 
                     testResultsContext.clear();
 
                     for (int i = 0; i < getComponents().length; i++) {//3
-                        if ( getComponents()[i] instanceof  JPanel){
+                        if (getComponents()[i] instanceof JPanel) {
                             JPanel panel = ((JPanel) getComponents()[i]);
                             (panel.getComponents()[0]).setEnabled(true);
-                            ((JCheckBox)(panel.getComponents()[0])).setSelected(false);
-                            ((JCheckBox)(panel.getComponents()[0])).setForeground(Color.black);
+                            ((JCheckBox) (panel.getComponents()[0])).setSelected(false);
+                            ((JCheckBox) (panel.getComponents()[0])).setForeground(Color.black);
 
-                            if (panel.getComponents()[2] instanceof  JLabel){
-                                ((JLabel)(panel.getComponents()[2])).setVisible(false);
+                            if (panel.getComponents()[2] instanceof JLabel) {
+                                ((JLabel) (panel.getComponents()[2])).setVisible(false);
                             }
                         }
                     }
@@ -242,27 +234,27 @@ public class GetCenterPanel extends JPanel {
                     boolean isAnySelected = false;// todo enable kontrolü yapmamız gerek
                     for (int i = 0; i < getComponents().length - 1; i++) {
 
-                        if(((JCheckBox)((JPanel)getComponent(i)).getComponent(0)).isSelected()){
+                        if (((JCheckBox) ((JPanel) getComponent(i)).getComponent(0)).isSelected()) {
                             isAnySelected = true;
                             break;
                         }
                     }
 
-                    if (!isAnySelected){
-                        JOptionPane.showMessageDialog(null,"En az bir adet test seçin!");
+                    if (!isAnySelected) {
+                        JOptionPane.showMessageDialog(null, "En az bir adet test seçin!");
                         return;
 
-                    }else{
+                    } else {
 
                         // hangi testlerin cbx işaretli, tespit et testResultContext'e ekle
                         // cbx işareti kaldır
-                        for (int i = 0; i < getComponents().length -1 ; i++) {// -1: "tümTestiseç" paneli hariç
+                        for (int i = 0; i < getComponents().length - 1; i++) {// -1: "tümTestiseç" paneli hariç
 
                             JPanel panel = (JPanel) getComponents()[i];
                             JCheckBox cbxTest = (JCheckBox) panel.getComponent(0);
                             cbxTest.setForeground(Color.gray);
 
-                            if (cbxTest.isSelected() && cbxTest.isEnabled()){
+                            if (cbxTest.isSelected() && cbxTest.isEnabled()) {
 
                                 Map<EventContextParam, Object> testContext = new LinkedHashMap<EventContextParam, Object>();
                                 testContext.put(EventContextParam.TEST_NAME, cbxTest.getName());
@@ -272,17 +264,16 @@ public class GetCenterPanel extends JPanel {
 
                                 cbxTest.setForeground(Color.white);
 
-                            }else {
+                            } else {
 
                                 // fail olan test tekrar koşulmak istenmezse
-                                if (cbxTest.isEnabled() && !cbxTest.isSelected()){
+                                if (cbxTest.isEnabled() && !cbxTest.isSelected()) {
 
                                     Map<EventContextParam, Object> testContext = (Map<EventContextParam, Object>) testResultsContext.get(cbxTest.getName());
-                                    if (testContext != null){
+                                    if (testContext != null) {
                                         testContext.put(EventContextParam.TEST_RUNNABLE, false);
                                     }
                                 }
-
                             }
 
                             cbxTest.setSelected(false);
@@ -298,7 +289,6 @@ public class GetCenterPanel extends JPanel {
                         btnEndTests.setEnabled(false);
 
                         startTests();
-
                     }
                 }
             });
@@ -307,15 +297,15 @@ public class GetCenterPanel extends JPanel {
         return selectAllTestPanel;
     }
 
-    private void startTests(){
+    private void startTests() {
 
-        SwingWorker<Void,Void> worker = new SwingWorker<Void, Void>() {
+        SwingWorker<Void, Void> worker = new SwingWorker<Void, Void>() {
             @Override
             protected Void doInBackground() throws Exception {
 
                 /////// bu kısımda testleri metoda gönder//////
                 Iterator iterator = testResultsContext.entrySet().iterator();
-                while (iterator.hasNext()){
+                while (iterator.hasNext()) {
 
                     Map.Entry entry = (Map.Entry) iterator.next();
                     Map<EventContextParam, Object> map = (Map<EventContextParam, Object>) entry.getValue();//testContext'imiz
@@ -323,49 +313,49 @@ public class GetCenterPanel extends JPanel {
                     boolean isRunnable = map.get(EventContextParam.TEST_RUNNABLE).equals(true) ? true : false;// fail olan testi tekrar edilsinmi?
 
                     // status failse şu teste git..
-                    if (entry.getKey().equals(TestOrder.MODEM_ERISIM_TESTI.name()) && isFail && isRunnable ){
+                    if (entry.getKey().equals(TestOrder.MODEM_ERISIM_TESTI.name()) && isFail && isRunnable) {
                         startProgressBar(TestOrder.MODEM_ERISIM_TESTI);// progress barı çalıştır..
                         entry.setValue(new ModemErisimTesti().execute(map));
                         stopProgressBar(TestOrder.MODEM_ERISIM_TESTI, map.get(EventContextParam.TEST_STATUS).equals(TestStatus.SUCCESS));// progress barı çalıştır..
                     }
 
-                    if (entry.getKey().equals(TestOrder.LAN_PORTLARI_TESTI.name()) && isFail && isRunnable){
+                    if (entry.getKey().equals(TestOrder.LAN_PORTLARI_TESTI.name()) && isFail && isRunnable) {
                         startProgressBar(TestOrder.LAN_PORTLARI_TESTI);// progress barı çalıştır..
                         entry.setValue(new LanPortlariTesti().execute(map));
                         stopProgressBar(TestOrder.LAN_PORTLARI_TESTI, map.get(EventContextParam.TEST_STATUS).equals(TestStatus.SUCCESS));// progress barı çalıştır..
                     }
 
-                    if (entry.getKey().equals(TestOrder.MODEM_LOGIN_TESTI.name()) && isFail && isRunnable){
+                    if (entry.getKey().equals(TestOrder.MODEM_LOGIN_TESTI.name()) && isFail && isRunnable) {
                         startProgressBar(TestOrder.MODEM_LOGIN_TESTI);// progress barı çalıştır..
                         entry.setValue(new ModemLoginTesti().execute(map));
                         stopProgressBar(TestOrder.MODEM_LOGIN_TESTI, map.get(EventContextParam.TEST_STATUS).equals(TestStatus.SUCCESS));// progress barı çalıştır..
                     }
 
-                    if (entry.getKey().equals(TestOrder.FIRMWARE_KONTROL_TESTI.name()) && isFail && isRunnable){
+                    if (entry.getKey().equals(TestOrder.FIRMWARE_KONTROL_TESTI.name()) && isFail && isRunnable) {
                         startProgressBar(TestOrder.FIRMWARE_KONTROL_TESTI);// progress barı çalıştır..
                         entry.setValue(new FirmwareKontrolTesti().execute(map));
                         stopProgressBar(TestOrder.FIRMWARE_KONTROL_TESTI, map.get(EventContextParam.TEST_STATUS).equals(TestStatus.SUCCESS));// progress barı çalıştır..
                     }
 
-                    if (entry.getKey().equals(TestOrder.WIFI_ISLEVSELLIK_TESTI.name()) && isFail && isRunnable){
+                    if (entry.getKey().equals(TestOrder.WIFI_ISLEVSELLIK_TESTI.name()) && isFail && isRunnable) {
                         startProgressBar(TestOrder.WIFI_ISLEVSELLIK_TESTI);// progress barı çalıştır..
                         entry.setValue(new WifiIslevsellikTesti().execute(map));
                         stopProgressBar(TestOrder.WIFI_ISLEVSELLIK_TESTI, map.get(EventContextParam.TEST_STATUS).equals(TestStatus.SUCCESS));// progress barı çalıştır..
                     }
 
-                    if (entry.getKey().equals(TestOrder.INTERNET_BAGLANTI_TESTI.name()) && isFail && isRunnable){
+                    if (entry.getKey().equals(TestOrder.INTERNET_BAGLANTI_TESTI.name()) && isFail && isRunnable) {
                         startProgressBar(TestOrder.INTERNET_BAGLANTI_TESTI);// progress barı çalıştır..
                         entry.setValue(new InternetBaglantiTesti().execute(map));
                         stopProgressBar(TestOrder.INTERNET_BAGLANTI_TESTI, map.get(EventContextParam.TEST_STATUS).equals(TestStatus.SUCCESS));// progress barı çalıştır..
                     }
 
-                    if (entry.getKey().equals(TestOrder.LED_TESTI.name()) && isFail && isRunnable){
+                    if (entry.getKey().equals(TestOrder.LED_TESTI.name()) && isFail && isRunnable) {
                         startProgressBar(TestOrder.LED_TESTI);// progress barı çalıştır..
                         entry.setValue(new LedTesti().execute(map));
                         stopProgressBar(TestOrder.LED_TESTI, map.get(EventContextParam.TEST_STATUS).equals(TestStatus.SUCCESS));// progress barı çalıştır..
                     }
 
-                    if (entry.getKey().equals(TestOrder.RESET_BUTON_TESTI.name()) && isFail && isRunnable){
+                    if (entry.getKey().equals(TestOrder.RESET_BUTON_TESTI.name()) && isFail && isRunnable) {
                         startProgressBar(TestOrder.RESET_BUTON_TESTI);// progress barı çalıştır..
                         entry.setValue(new ResetButonTesti().execute(map));
                         stopProgressBar(TestOrder.RESET_BUTON_TESTI, map.get(EventContextParam.TEST_STATUS).equals(TestStatus.SUCCESS));// progress barı çalıştır..
@@ -378,7 +368,7 @@ public class GetCenterPanel extends JPanel {
                 // Tüm testleri enable yap
                 // success olanları disable yap
                 // Böylece başlangıçta seçilmeyen testlerde seçilebilecek
-                for (int i = 0; i < getComponents().length -1 ; i++) {// -1: "tümTestiseç" paneli hariç
+                for (int i = 0; i < getComponents().length - 1; i++) {// -1: "tümTestiseç" paneli hariç
 
                     JPanel panel = (JPanel) getComponents()[i];
                     JCheckBox cbxTest = (JCheckBox) panel.getComponent(0);
@@ -399,17 +389,17 @@ public class GetCenterPanel extends JPanel {
                 int countSuccessTest = 0;
                 Iterator iterate = testResultsContext.entrySet().iterator();
 
-                while (iterate.hasNext()){
+                while (iterate.hasNext()) {
 
                     Map.Entry entry = (Map.Entry) iterate.next();
                     Map<EventContextParam, Object> map = (Map<EventContextParam, Object>) entry.getValue();
 
-                    if (map.get(EventContextParam.TEST_STATUS).equals(TestStatus.SUCCESS)){
+                    if (map.get(EventContextParam.TEST_STATUS).equals(TestStatus.SUCCESS)) {
                         //success'i bul disable yap
-                        for (int i = 0; i < getComponents().length -1 ; i++) {// -1: "tümTestiseç" paneli hariç
+                        for (int i = 0; i < getComponents().length - 1; i++) {// -1: "tümTestiseç" paneli hariç
 
                             JPanel panel = (JPanel) getComponents()[i];
-                            if(entry.getKey().equals(panel.getName())){
+                            if (entry.getKey().equals(panel.getName())) {
 
                                 JCheckBox cbox = (JCheckBox) panel.getComponent(0);
                                 cbox.setEnabled(false);
@@ -421,15 +411,14 @@ public class GetCenterPanel extends JPanel {
                     }
                 }
 
-                if (TestOrder.values().length != countSuccessTest){
+                if (TestOrder.values().length != countSuccessTest) {
                     cboxSelectAll.setEnabled(true);//tüm testler başarılı değilse enable
                     btnStartTests.setEnabled(true);
-                }else{
+                } else {
                     cboxSelectAll.setEnabled(false);//tüm testler başarılı ilse disable
                     cboxSelectAll.setForeground(Color.gray);
                     btnStartTests.setEnabled(false);
                 }
-
 
                 return null;
             }
@@ -438,19 +427,19 @@ public class GetCenterPanel extends JPanel {
         worker.execute();
     }
 
-    private void startProgressBar(final TestOrder currentTest){
+    private void startProgressBar(final TestOrder currentTest) {
 
-        SwingWorker<Void,Void> worker = new SwingWorker<Void, Void>(){
+        SwingWorker<Void, Void> worker = new SwingWorker<Void, Void>() {
             @Override
             protected Void doInBackground() throws Exception {
 
                 for (int i = 0; i < getComponents().length - 1; i++) {
                     JPanel panel = (JPanel) getComponent(i);
-                    if (panel.getName().equals(currentTest.name())){
+                    if (panel.getName().equals(currentTest.name())) {
 
                         //cbox font bold
                         JCheckBox cbox = (JCheckBox) panel.getComponent(0);
-                        Font font = new Font(cbox.getFont().getName(),Font.BOLD, cbox.getFont().getSize()+4);
+                        Font font = new Font(cbox.getFont().getName(), Font.BOLD, cbox.getFont().getSize() + 4);
                         cbox.setFont(font);
                         cbox.setForeground(Color.green);
 
@@ -473,19 +462,19 @@ public class GetCenterPanel extends JPanel {
         worker.run();
     }
 
-    private void stopProgressBar(final TestOrder currentTest, final boolean result){
+    private void stopProgressBar(final TestOrder currentTest, final boolean result) {
 
-        SwingWorker<Void,Void> worker = new SwingWorker<Void, Void>(){
+        SwingWorker<Void, Void> worker = new SwingWorker<Void, Void>() {
             @Override
             protected Void doInBackground() throws Exception {
 
                 for (int i = 0; i < getComponents().length - 1; i++) {
                     JPanel panel = (JPanel) getComponent(i);
-                    if (panel.getName().equals(currentTest.name())){
+                    if (panel.getName().equals(currentTest.name())) {
 
                         //cbox font bold
                         JCheckBox cbox = (JCheckBox) panel.getComponent(0);
-                        Font font = new Font(cbox.getFont().getName(), Font.BOLD, cbox.getFont().getSize()-4);
+                        Font font = new Font(cbox.getFont().getName(), Font.BOLD, cbox.getFont().getSize() - 4);
                         cbox.setFont(font);
                         cbox.setForeground(Color.gray);
 
