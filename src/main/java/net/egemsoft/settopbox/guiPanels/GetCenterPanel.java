@@ -295,6 +295,7 @@ public class GetCenterPanel extends JPanel {
                         cboxSelectAll.setEnabled(false);
                         cboxSelectAll.setForeground(Color.gray);
                         btnStartTests.setEnabled(false);
+                        btnEndTests.setEnabled(false);
 
                         startTests();
 
