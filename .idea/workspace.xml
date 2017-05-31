@@ -2,74 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae728a76-08ab-4990-8825-6237afefa532" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/enums/EventContextParam.class" afterPath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/enums/EventContextParam.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/enums/TestOrder.class" afterPath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/enums/TestOrder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/enums/TestStatus.class" afterPath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/enums/TestStatus.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/guiPanels/GetBottomPanel$1.class" afterPath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/guiPanels/GetBottomPanel$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/guiPanels/GetBottomPanel.class" afterPath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/guiPanels/GetBottomPanel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/guiPanels/GetCenterPanel$1.class" afterPath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/guiPanels/GetCenterPanel$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/guiPanels/GetCenterPanel$2.class" afterPath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/guiPanels/GetCenterPanel$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/guiPanels/GetCenterPanel$3.class" afterPath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/guiPanels/GetCenterPanel$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/guiPanels/GetCenterPanel$4.class" afterPath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/guiPanels/GetCenterPanel$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/guiPanels/GetCenterPanel$5.class" afterPath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/guiPanels/GetCenterPanel$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/guiPanels/GetCenterPanel$6.class" afterPath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/guiPanels/GetCenterPanel$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/guiPanels/GetCenterPanel$7.class" afterPath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/guiPanels/GetCenterPanel$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/guiPanels/GetCenterPanel$8.class" afterPath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/guiPanels/GetCenterPanel$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/guiPanels/GetCenterPanel.class" afterPath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/guiPanels/GetCenterPanel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/guiPanels/GetTopPanel.class" afterPath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/guiPanels/GetTopPanel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/testsManagement/firmwareControlTestCore/FirmwareKontrolTesti.class" afterPath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/testsManagement/firmwareControlTestCore/FirmwareKontrolTesti.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/testsManagement/internetBaglantiTestCore/InternetBaglantiTesti.class" afterPath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/testsManagement/internetBaglantiTestCore/InternetBaglantiTesti.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/testsManagement/lanPortlariTestCore/LanPortlariTesti.class" afterPath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/testsManagement/lanPortlariTestCore/LanPortlariTesti.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/testsManagement/ledTestCore/LedTesti.class" afterPath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/testsManagement/ledTestCore/LedTesti.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/testsManagement/modemErisimTestCore/ModemErisimTesti.class" afterPath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/testsManagement/modemErisimTestCore/ModemErisimTesti.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/testsManagement/modemLoginTestCore/ModemLoginTesti.class" afterPath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/testsManagement/modemLoginTestCore/ModemLoginTesti.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/testsManagement/resetButonTestCore/ResetButonTesti.class" afterPath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/testsManagement/resetButonTestCore/ResetButonTesti.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/testsManagement/wifiIslevsellikTestCore/WifiIslevsellikTesti.class" afterPath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/testsManagement/wifiIslevsellikTestCore/WifiIslevsellikTesti.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/ui/ApplicationWindow.class" afterPath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/ui/ApplicationWindow.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/ui/ApplicationWindow2.class" afterPath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/ui/ApplicationWindow2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/ui/MainApplication.class" afterPath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/ui/MainApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/utilities/MyJTextPane$1.class" afterPath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/utilities/MyJTextPane$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/utilities/MyJTextPane$WrapColumnFactory.class" afterPath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/utilities/MyJTextPane$WrapColumnFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/utilities/MyJTextPane$WrapEditorKit.class" afterPath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/utilities/MyJTextPane$WrapEditorKit.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/utilities/MyJTextPane.class" afterPath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/utilities/MyJTextPane.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/utilities/PrintTestResults$1.class" afterPath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/utilities/PrintTestResults$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/utilities/PrintTestResults.class" afterPath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/utilities/PrintTestResults.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/utilities/PrintTestResults2TextFile.class" afterPath="$PROJECT_DIR$/target/classes/net/egemsoft/settopbox/utilities/PrintTestResults2TextFile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/settopbox/CardLayoutDemo$1.class" afterPath="$PROJECT_DIR$/target/test-classes/settopbox/CardLayoutDemo$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/settopbox/CardLayoutDemo.class" afterPath="$PROJECT_DIR$/target/test-classes/settopbox/CardLayoutDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/settopbox/ListModelExample$1.class" afterPath="$PROJECT_DIR$/target/test-classes/settopbox/ListModelExample$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/settopbox/ListModelExample$2.class" afterPath="$PROJECT_DIR$/target/test-classes/settopbox/ListModelExample$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/settopbox/ListModelExample.class" afterPath="$PROJECT_DIR$/target/test-classes/settopbox/ListModelExample.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/settopbox/ProgressBarDemo$1.class" afterPath="$PROJECT_DIR$/target/test-classes/settopbox/ProgressBarDemo$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/settopbox/ProgressBarDemo$Task.class" afterPath="$PROJECT_DIR$/target/test-classes/settopbox/ProgressBarDemo$Task.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/settopbox/ProgressBarDemo.class" afterPath="$PROJECT_DIR$/target/test-classes/settopbox/ProgressBarDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/settopbox/dao/MainApp$1.class" afterPath="$PROJECT_DIR$/target/test-classes/settopbox/dao/MainApp$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/settopbox/dao/MainApp$2.class" afterPath="$PROJECT_DIR$/target/test-classes/settopbox/dao/MainApp$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/settopbox/dao/MainApp$3.class" afterPath="$PROJECT_DIR$/target/test-classes/settopbox/dao/MainApp$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/settopbox/dao/MainApp$4.class" afterPath="$PROJECT_DIR$/target/test-classes/settopbox/dao/MainApp$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/settopbox/dao/MainApp.class" afterPath="$PROJECT_DIR$/target/test-classes/settopbox/dao/MainApp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/settopbox/dao/MyJTextPane$1.class" afterPath="$PROJECT_DIR$/target/test-classes/settopbox/dao/MyJTextPane$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/settopbox/dao/MyJTextPane$WrapColumnFactory.class" afterPath="$PROJECT_DIR$/target/test-classes/settopbox/dao/MyJTextPane$WrapColumnFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/settopbox/dao/MyJTextPane$WrapEditorKit.class" afterPath="$PROJECT_DIR$/target/test-classes/settopbox/dao/MyJTextPane$WrapEditorKit.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/settopbox/dao/MyJTextPane.class" afterPath="$PROJECT_DIR$/target/test-classes/settopbox/dao/MyJTextPane.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/settopbox/ui/ApplicationWindowTest$1.class" afterPath="$PROJECT_DIR$/target/test-classes/settopbox/ui/ApplicationWindowTest$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/settopbox/ui/ApplicationWindowTest$2.class" afterPath="$PROJECT_DIR$/target/test-classes/settopbox/ui/ApplicationWindowTest$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/settopbox/ui/ApplicationWindowTest$3.class" afterPath="$PROJECT_DIR$/target/test-classes/settopbox/ui/ApplicationWindowTest$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/settopbox/ui/ApplicationWindowTest.class" afterPath="$PROJECT_DIR$/target/test-classes/settopbox/ui/ApplicationWindowTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/settopbox/ui/BackgroundImageJFrame.class" afterPath="$PROJECT_DIR$/target/test-classes/settopbox/ui/BackgroundImageJFrame.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/settopbox/ui/CreateJLabelWithImageIconAndText$1.class" afterPath="$PROJECT_DIR$/target/test-classes/settopbox/ui/CreateJLabelWithImageIconAndText$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/settopbox/ui/CreateJLabelWithImageIconAndText.class" afterPath="$PROJECT_DIR$/target/test-classes/settopbox/ui/CreateJLabelWithImageIconAndText.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/settopbox/ui/logscreen/CustomTextPane$1.class" afterPath="$PROJECT_DIR$/target/test-classes/settopbox/ui/logscreen/CustomTextPane$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/settopbox/ui/logscreen/CustomTextPane$WrapColumnFactory.class" afterPath="$PROJECT_DIR$/target/test-classes/settopbox/ui/logscreen/CustomTextPane$WrapColumnFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/settopbox/ui/logscreen/CustomTextPane$WrapEditorKit.class" afterPath="$PROJECT_DIR$/target/test-classes/settopbox/ui/logscreen/CustomTextPane$WrapEditorKit.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/settopbox/ui/logscreen/CustomTextPane.class" afterPath="$PROJECT_DIR$/target/test-classes/settopbox/ui/logscreen/CustomTextPane.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/settopbox/ui/logscreen/WrapTestApp.class" afterPath="$PROJECT_DIR$/target/test-classes/settopbox/ui/logscreen/WrapTestApp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/settopbox/utilities/PrintTestResults2TextFileTest.class" afterPath="$PROJECT_DIR$/target/test-classes/settopbox/utilities/PrintTestResults2TextFileTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/settopbox/utilities/PrintTestResultsTest.class" afterPath="$PROJECT_DIR$/target/test-classes/settopbox/utilities/PrintTestResultsTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/guiPanels/GetCenterPanel.java" afterPath="$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/guiPanels/GetCenterPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/ui/ApplicationWindow.java" afterPath="$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/ui/ApplicationWindow.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/ui/MainApplication.java" afterPath="$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/ui/MainApplication.java" />
     </list>
     <ignored path="settopbox.iws" />
@@ -91,48 +24,13 @@
     <favorites_list name="settopbox" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ApplicationWindow.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/ui/ApplicationWindow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="59" column="50" selection-start-line="59" selection-start-column="50" selection-end-line="59" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GetCenterPanel.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/guiPanels/GetCenterPanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-79">
-              <caret line="397" column="32" selection-start-line="397" selection-start-column="32" selection-end-line="397" selection-end-column="32" />
-              <folding>
-                <element signature="method#stopProgressBar#0;class#GetCenterPanel#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/ui/MainApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -147,8 +45,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/settopbox/PrinterTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/settopbox/printWithoutDialog.java" />
         <option value="$PROJECT_DIR$/src/test/java/settopbox/LineBreakSample.java" />
         <option value="$PROJECT_DIR$/src/test/java/settopbox/HelloWorldPrinter.java" />
         <option value="$PROJECT_DIR$/src/test/java/settopbox/PrintDialogExample.java" />
@@ -188,16 +84,18 @@
         <option value="$PROJECT_DIR$/src/test/java/settopbox/utilities/PrintTestResults2TextFile.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/utilities/PrintTestResults2TextFile.java" />
         <option value="$PROJECT_DIR$/src/test/java/settopbox/utilities/PrintTestResults2TextFileTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/ui/ApplicationWindow.java" />
         <option value="$PROJECT_DIR$/src/test/java/settopbox/dao/MainApp.java" />
         <option value="$PROJECT_DIR$/src/test/java/settopbox/denemeler/ListNets.java" />
         <option value="$PROJECT_DIR$/src/test/java/settopbox/denemeler/ListNIFs.java" />
         <option value="$PROJECT_DIR$/src/test/java/settopbox/denemeler/WmicTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/settopbox/denemeler/wmi/WMIObjectInformation.java" />
         <option value="$PROJECT_DIR$/src/test/java/settopbox/denemeler/wmi/WMIConnection.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/ui/MainApplication.java" />
         <option value="$PROJECT_DIR$/src/test/java/settopbox/TestUUID.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/guiPanels/GetCenterPanel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/enums/AdapterType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/ui/ApplicationWindow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/ui/MainApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/cofiguration/AdapterSettings.java" />
       </list>
     </option>
   </component>
@@ -313,18 +211,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="settopbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -366,37 +252,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="settopbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="setupBox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="settopbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utilities" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -455,8 +319,94 @@
               <option name="myItemId" value="settopbox" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="settopbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="setupBox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="settopbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="guiPanels" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="settopbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="setupBox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="settopbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="enums" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="settopbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="setupBox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="settopbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cofiguration" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1163,7 +1113,7 @@
       <workItem from="1492188417306" duration="786000" />
       <workItem from="1492777977271" duration="12000" />
       <workItem from="1494590814106" duration="283000" />
-      <workItem from="1496208014519" duration="1082000" />
+      <workItem from="1496208014519" duration="5731000" />
     </task>
     <servers />
   </component>
@@ -1200,11 +1150,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2353000" />
+    <option name="totallyTimeSpent" value="7002000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1215,12 +1165,12 @@
       <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.107027024" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16972972" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32036248" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19029851" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1302,20 +1252,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/settopbox/ListModelExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="36" column="7" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/Logger.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Java/64bit/jdk1.7.0_79/src.zip!/javax/swing/DefaultListModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1534,13 +1470,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/ui/ApplicationWindow2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/testsManagement/wifiIslevsellikTestCore/CreateWifiProfile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1590,13 +1519,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/settopbox/TestUUID.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1630,16 +1552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/ui/ApplicationWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="59" column="50" selection-start-line="59" selection-start-column="50" selection-end-line="59" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/settopbox/CardLayoutDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1651,21 +1563,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/ui/MainApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/guiPanels/GetCenterPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="420" column="21" selection-start-line="420" selection-start-column="21" selection-end-line="420" selection-end-column="21" />
+          <folding>
+            <element signature="method#stopProgressBar#0;class#GetCenterPanel#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/ui/ApplicationWindow2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/guiPanels/GetCenterPanel.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/enums/AdapterType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-79">
-          <caret line="397" column="32" selection-start-line="397" selection-start-column="32" selection-end-line="397" selection-end-column="32" />
-          <folding>
-            <element signature="method#stopProgressBar#0;class#GetCenterPanel#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="221">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/ui/ApplicationWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/cofiguration/AdapterSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/egemsoft/settopbox/ui/MainApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
+          <folding />
         </state>
       </provider>
     </entry>

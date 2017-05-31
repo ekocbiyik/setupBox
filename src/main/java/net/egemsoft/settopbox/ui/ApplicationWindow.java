@@ -48,7 +48,7 @@ public class ApplicationWindow {
 
         mainJFrame.setMaximumSize(new Dimension(MAIN_WINDOW_WIDTH,MAIN_WINDOW_HEIGHT));
         mainJFrame.setMinimumSize(new Dimension(MAIN_WINDOW_WIDTH-1, MAIN_WINDOW_HEIGHT-1));
-        mainJFrame.setResizable(false);
+        mainJFrame.setResizable(true);
         mainJFrame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
         int windowHeight = (int) Toolkit.getDefaultToolkit().getScreenSize().getHeight();
